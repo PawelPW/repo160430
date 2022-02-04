@@ -1,31 +1,33 @@
 
+    ///Dokumentacja klasy MyLnA
     class MyLnA
+    
     {
     private:
-        double mX; 
-        double mA;
-    public:
-        MyLnA(double a = 0){
+        double mX; /*!< definicje zmiennych prywatnych *///zmienna double mX//
+        double mA;/*!< definicje zmiennych prywatnych */ //zmienna double mX//
+    public:/**Deklaracja metod publicznych*/ 
+        MyLnA(double a = 0){/**< metoda z parametrem double */
+                
+        };
+        MyLnA(double x, double a = 0){/** metoda z dwoma parametrami */
 
         };
-        MyLnA(double x, double a = 0){
+        MyLnA(const MyLnA &obj){/** metoda z parametrem MyLnA &obj*/
 
         };
-        MyLnA(const MyLnA &obj){
+        ~MyLnA(){/** dekonstruktor*/
 
         };
-        ~MyLnA(){
-
+        double value(){/** metoda value. */
         };
-        double value(){
+        void setX(){/** metoda set x */
         };
-        void setX(){
+        double getX(){/** metoda get x  */
         };
-        double getX(){
+        void setA(double){/** metoda set a  */
         };
-        void setA(double){
-        };
-        double getA(){
+        double getA(){/** metoda get a */
         };
     };
     
